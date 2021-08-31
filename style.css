@@ -26,7 +26,7 @@ margin: auto;
     z-index: 999;
     width: 100%;
     background: #FC3;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Montserrat;
     font-weight: 300;
 }
 .navbar .max-width{
@@ -58,13 +58,13 @@ margin: auto;
 /*home sectiom stylingC*/
 .home {
     display: flex;
-    background: url(./img/IMG_8866.JPGs);
+    background: url(./img/IMG_8866.JPG);
     height: 100vh;
     background-size: cover;
     background-position: top center;
     color:black;
     min-height: 500px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: Montserrat;
 }
 .home .max-width{
     margin: auto 0 auto 40px;
@@ -82,8 +82,9 @@ margin: auto;
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: goldenrod;
-    font-weight: 500;
+    color:white;
+    font-weight: 600;
+    font-family: monospace;
 }
 .home .home-content a{
     display: inline-block;
@@ -110,7 +111,7 @@ section {
     padding: 100px 0;
 }
 .about, .services, .portfolio{
-    font-family:'Times New Roman', Times, serif;
+    font-family: Montserrat;
 }
 .about .about-content,
 .services .service-content{
@@ -245,11 +246,11 @@ transform: scale(1.05 );
 
 /*end of services styling*/
 .portfolio{  
-    background: #fff;
+    background: rgb(168, 127, 3);
   color: #111;
 }
 .portfolio .title::after{
-    background: #111;
+   
     content: " what i have done";
 }
 .portfolio .title{
@@ -330,6 +331,7 @@ transform: scale(1.05 );
 
 .contact .title::after{
     content: "Get in Touch";
+    font-family: monospace;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
